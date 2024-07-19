@@ -11,7 +11,7 @@ int ECG_mixto[4000] =
 };
 
 int index=0;
-int ciclos_epilepsia = 3; // el ataque de epilepsia durará 5*10 = 50 segundos
+int ciclos_epilepsia = 3; // el ataque de epilepsia durará 3*10 = 30 segundos
 int ciclo_i = 0;
 
 int tsamp_ms = 5; // 4000*5/1000 = 20 segundos de señal en total
